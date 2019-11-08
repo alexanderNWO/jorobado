@@ -1,0 +1,40 @@
+.barra-navegacion > li > a:hover {
+    color: #ff8c00;
+}
+
+.barra-navegacion {
+    width: 500px;
+    margin: 0 auto;
+
+}
+.barra-navegacion > li{
+  float: left;
+  margin-top: 15px;
+}
+.barra-navegacion li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 2px;;
+    background: black;
+}
+.barra-navegacion ul, li{
+    list-style: none;
+    z-index: 5;     
+}
+.barra-navegacion li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+        
+}
+.barra-navegacion li:hover > ul{
+  display: block;
+}
+.barra-navegacion li ul li{
+  position: relative;
+}
+.barra-navegacion > li > ul > li > a:hover{
+  color: #ff8c00;
+}

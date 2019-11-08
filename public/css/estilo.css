@@ -1,0 +1,241 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+button.boton {
+    background-color: #f9ca24;
+    border:2px sólido #A65B1A;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    Color:#706fd3;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+}
+
+
+body{
+	font-size: 100%;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}
+body a {
+	text-decoration:none;
+}
+a:hover{
+ text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.slider h3{
+    font-size: 49px;
+    margin-bottom: 25px;
+    color: #000;
+    text-align: center;
+}
+.Encabezado {
+    text-align: center;
+    font-face: 'Bodoni MT';
+}
+.Encabezado h1 a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 60px;
+    display: block;
+    background: #ff304d;
+    padding: 34px 20px;
+    font-weight: 600;
+}
+.registros a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 30px;
+    background: #01bcfa;
+    margin-top: 15px;
+}
+.registros {
+    float: right;
+    width: 29%;
+    margin-top: 30px;
+}
+.registros p{
+    color: #fff;
+}
+.barra-navegacion > li > a:hover {
+    color: #ff8c00;
+}
+.encabezado-texto {
+    padding: 48px;
+}
+.informacion {
+    margin: auto;
+    width: 85%;
+    list-style: none;
+}
+.caracteristicas h4 {
+    font-size: 76px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.caracteristicas p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.caracteristicas {
+    margin-top: 150px;
+}
+.botones {
+  background: #2098D1;
+}
+
+.barra-navegacion {
+  margin-left: 290px;
+
+
+}
+.barra-navegacion > li{
+  float: left;
+  margin-top: 15px;
+}
+.barra-navegacion li a{
+	color: #fff;
+	text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    margin-left: 2px;;
+    background: #000;
+}
+.barra-navegacion ul, li{
+    list-style: none;
+    z-index: 5;
+}
+.barra-navegacion li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+
+}
+.barra-navegacion li:hover > ul{
+  display: block;
+}
+.barra-navegacion li ul li{
+  position: relative;
+}
+.barra-navegacion > li > ul > li > a:hover{
+  color: #ff8c00;
+}
+
+.fondo {
+  position:relative;
+	background:url('../images/fondo1.jpg')no-repeat;
+	background-size:cover;
+}
+.pie {
+    text-align: center;
+}
+.pie p {
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 20px;
+    background: #1e2223;
+}
+.pie p a {
+    color: #ff304d;
+    text-decoration: none;
+}
+.pie p a:hover{
+	color: #fff;
+}
+.ancla {
+	position: fixed;
+	bottom: 24px;
+	right: 1%;
+    width: 64px;
+    height: 64px;
+	background: url("../images/flecha.png") no-repeat 0px 0px;
+}
+
+
+.slider {
+    width: 50%;
+    height: 28%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+
+
+
+.social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0; /* Establecemos la barra en la izquierda */
+    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+    .social ul {
+        list-style: none;
+    }
+
+    .social ul li a {
+        display: inline-block;
+        color:#fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }
+
+    .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-twitter {background: #00abf0;}
+    .social ul li .icon-instagram {background: #d95232;}
+    .social ul li .icon-correo {background: #666666;}
+
+    .social ul li a:hover {
+        background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+        padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }

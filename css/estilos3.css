@@ -1,0 +1,355 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.boton {
+    background-color: black;
+    border:2px solid #A65B1A;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    Color: white;
+		margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton:hover{
+	background-color: white;
+	color: black;
+}
+
+table{
+	text-align: center;
+	margin: 0 auto;
+	border:1px solid;
+	border-collapse:collapse;
+	width:70%;
+
+	align-items: center;
+    }
+
+		a{
+			margin: 0 auto;
+		}
+
+table td{
+	font: normal 12px Arial, Helvetica, sans-serif;
+	background:white;
+	border:2px solid #000;
+	opacity: 0.9;
+	padding:10px;
+	color: black;
+	}
+
+table th{
+	background:black;
+	color: white;
+	opacity: 0.9;
+	font-size:15px;
+	font-weight:bold;
+	border:2px solid #00B1FF;
+	text-align:center;
+	padding:10px;
+	}
+
+h2{
+	color: white;
+}
+
+body{
+    margin: 0 auto;
+    background: url(../images/fondo1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+
+
+input {
+	outline: none;
+	border: none;
+}
+
+option{
+  width: 100%;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  padding: 0 25px;
+   color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+select{
+  width: 100%;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  padding: 0 25px;
+   color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.titulos h2{
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.titulos h3{
+  font-family: Poppins-Regular;
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.direcciones p{
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200px;
+}
+
+.numeros-correos p{
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: red;
+  text-align: center;
+}
+
+.contenedor {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+margin: 0 auto;
+  border-radius: 40px;
+}
+
+.contacto {
+
+  background-color: black;
+	opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+border-radius: 40px;
+width: 70%;
+height: auto;
+text-align: center;
+background-position: center;
+}
+
+.fondo1 {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: auto;
+}
+
+
+.formulario-forma {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 56px 55px 63px 55px;
+}
+
+.titulo {
+  width: 100%;
+  display: block;
+  font-family: Poppins-Regular;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+.formulario-bordes {
+  width: 100%;
+  position: relative;
+  border: 1px solid #e6e6e6;
+}
+
+.instrucciones {
+  font-family: Poppins-Regular;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.formulario {
+  width: 100%;
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  padding: 0 25px;
+   color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+input.formulario {
+  height: 55px;
+}
+.registros a {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 20px;
+    padding: 15px;
+    background-color: black;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.registros a:hover{
+  color: #000;
+  background-color: white;
+}
+
+.registros input[type="submit"] {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 20px;
+    padding: 15px;
+    background-color: black;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.registros input[type="submit"]:hover {
+	color: #000;
+  background-color: white;
+}
+
+.registros {
+    width: 50%;
+    margin: 0 auto;
+}
+.registros p{
+    color: #fff;
+}
+
+.contenedor-boton-envio:hover {
+  background: #333333;
+}
+
+textarea {
+  min-height: 139px;
+  padding-top: 19px;
+  padding-bottom: 15px;
+}
+
+.seleccionar {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.pie {
+    text-align: center;
+}
+.pie p {
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 20px;
+    background: #1e2223;
+}
+.pie p a {
+    color: #ff304d;
+    text-decoration: none;
+}
+.pie p a:hover{
+  color: #fff;
+}
+.ancla {
+  position: fixed;
+  bottom: 24px;
+  right: 1%;
+    width: 64px;
+    height: 64px;
+  background: url("../images/flecha.png") no-repeat 0px 0px;
+}
+
+.Encabezado table td {
+    text-align: center;
+    font-face: 'Bodoni MT';
+			background-color: transparent;
+			border:2px solid transparent;
+}
+.Encabezado h1 a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 60px;
+    display: block;
+    background: #ff304d;
+    padding: 34px 20px;
+    font-weight: 600;
+}
+.encabezado-texto {
+    padding: 48px;
+			background-color: transparent;
+}
+
+.formularios {
+   padding: 40px;
+
+}
+
+.categorias{
+    opacity: 0.65;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.categorias tr td a{
+    color: #000;
+}
